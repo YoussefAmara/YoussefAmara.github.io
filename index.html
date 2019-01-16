@@ -6,10 +6,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Youssef</title>
+    <title>Resume - Youssef </title>
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
-    <link href="../../cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.3.92/css/materialdesignicons.css" rel="stylesheet">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function (d, w, c) {
@@ -61,6 +61,25 @@
     .header {
         height: 73px;
     }
+    #img-profil{
+      margin-left: 73px;
+      border: 10px solid #f4f4f4;
+      box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2);
+    }
+
+  }
+
+  @media screen and (min-width:991px) {
+    #img-profil{
+      margin-left: 80px;
+      margin-top: -50px;
+      border: 10px solid #f4f4f4;
+      box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2);
+    }
+  }
+
+  #img-profil{
+     max-width: 59%!important;
   }
 
 
@@ -119,14 +138,14 @@
         <div class="row" style="margin-top:40px;">
             <div class="col-md-6 about-img-wrap">
                 <div class="wow slideInRight">
-                    <img src="" alt="" class="img-responsive" style="margin-left: 80px;margin-top: -50px;border: 10px solid #e8e8e8;">
+                    <img src="img/me-img1.jpg" alt="" id="img-profil" class="img-responsive">
                 </div>
             </div>
             <div class="col-md-6" style="margin-top:60px;">
                 <div class="about-me wow slideInLeft">
                     <div class="about-me-title">
                         <img src="img/01.png" alt="" class="img-responsive" id="position">
-                        <h1><span class="point">Je m'appelle Youssef Amara </span></h1>
+                        <h1><span class="point">Je m'appelle Youssef Amara</span></h1>
                     </div>
                     <div class="about-me-text">
                         <div class="opacity-box">
@@ -144,19 +163,20 @@
                         </p>
                         <p>
                             <span class="span-title">Adresse</span>
-                            <span>Rue 24 juillet 1975, Sousse</span>
+                            <span>Rue 25 juillet 1957, Sousse, Tunis.</span>
                         </p>
                         <p>
-                            <span class="span-title">Social</span>
+                            <span class="span-title">Sociale</span>
                             <span class="span-icons">
-                                <a target="_blank" href="https://www.linkedin.com/" class="mdi fonts-icons mdi-linkedin"></a>
-                                <a target="_blank" href="https://github.com/" class="mdi fonts-icons mdi-github-circle"></a>
+                                <a target="_blank" href="https://linkedin.com/in/youssefamara" class="mdi fonts-icons mdi-linkedin"></a>
+                                <a target="_blank" href="https://github.com/youssefamara" class="mdi fonts-icons mdi-github-circle"></a>
                             </span>
                         </p>
                     </div>
                     <div class="about-btns">
-                        <a data-toggle="modal" data-target="#contact-modal" href="#" class="site-btn">Contact me</a>
-                        <a href="download/example.pdf" class="site-btn gray-btn">Download cv</a>
+                        <a target="_blank" href="download/cv.pdf" class="site-btn">Télecharger CV</a>
+                        <a data-toggle="modal" data-target="#contact-modal" href="#" class="site-btn gray-btn">Contact</a>
+
                     </div>
                 </div>
             </div>
@@ -187,7 +207,7 @@
             </div>
             <div class="col-md-4 wow slideInLeft">
                 <div class="section-sidebar">
-                    <h2><span class="point">Competences</span></h2>
+                    <h2><span class="point">Compétences</span></h2>
                     <div class="opacity-box">
                       <p></p>
                     </div>
@@ -260,17 +280,31 @@
             </div>
             <div class="col-md-4 wow slideInLeft">
                 <div class="section-sidebar">
-                    <h2><span class="point">Experience</span></h2>
+                    <h2><span class="point">Expérience</span></h2>
                     <div class="opacity-box">
                         <p> </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-8 right-box">
+              <div class="row wow zoomIn">
+                  <div class="col-md-12">
+                      <div class="about-row">
+                          <h4 class="about-tittle">Global Consulting</h4>
+                          <p class="about-info"> <br> </p>
+                          <p>11.2018 - 12.2018</p>
+                          <div class="opacity-box">
+                              <p>Conception et développement d'une application web en Symfony 3 pour l'administration de l'académie ess qui à pour objectif de contrôler le fiche d'inscription de joueur,
+                                de entraîneur et de staff médical ainsi le suivi de payement de joueur chaque mois. </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <hr>
                 <div class="row wow zoomIn">
                     <div class="col-md-12">
                         <div class="about-row">
-                            <h4 class="about-tittle">STAGE DE 2EME ANNEE MASTER : Laboratoire de Technologie et Imagerie Médicale</h4>
+                            <h4 class="about-tittle">STAGE  MASTER : Laboratoire de Technologie et Imagerie Médicale</h4>
                             <p class="about-info"> <br> </p>
                             <p>02.2018 - 05.2018</p>
                             <div class="opacity-box">
@@ -349,7 +383,7 @@
             </div>
             <div class="col-md-4 wow slideInLeft">
                 <div class="section-sidebar">
-                    <h2><span class="point">Education</span></h2>
+                    <h2><span class="point">Formation</span></h2>
                     <div class="opacity-box">
                       <p></p>
                     </div>
@@ -400,7 +434,7 @@
             <div class="col-md-12">
                 <div class="portfolio-sort wow slideInLeft">
                     <ul class="list-inline">
-                        <li class="colored-link" data-mixitup-control data-filter="all">All projects</li>
+                        <li class="colored-link" data-mixitup-control data-filter="all">Tous les projets</li>
                         <li class="colored-link" data-mixitup-control data-filter=".web-sites">Web</li>
                         <li class="colored-link" data-mixitup-control data-filter=".ui-ux-design">Mobile</li>
                     </ul>
@@ -495,10 +529,10 @@
             <form action="#" class="wow slideInRight js-footer-form">
                 <div class="form-wrapper">
                     <div class="col-md-3">
-                      <strong>Télephone :</strong> <span>+216 52002379</span>
+                      <strong class="mdi fonts-icons mdi-phone"> Télephone :</strong> <span>+216 52002379</span>
                     </div>
                     <div class="col-md-5">
-                       <strong>Email :</strong> <span>youssefamar611@gmail.com</span>
+                       <strong class="mdi fonts-icons mdi-email"> Email :</strong> <span>youssefamar611@gmail.com</span>
                     </div>
                 </div>
             </form>
@@ -543,7 +577,7 @@
                     <img src="media/modal-images/modal-image-3.jpg" alt="">
                 </div>
                 <div class="about-btns">
-                    <a href="#" class="site-btn" data-dismiss="modal">Back to cv</a>
+                    <a href="#" class="site-btn" data-dismiss="modal">Retour au cv </a>
                 </div>
             </div>
 
@@ -568,7 +602,7 @@
                     <img src="media/modal-images/modal-image-4.jpg" alt="">
                 </div>
                 <div class="about-btns">
-                    <a href="#" class="site-btn" data-dismiss="modal">Back to cv</a>
+                    <a href="#" class="site-btn" data-dismiss="modal">Retour au cv </a>
                 </div>
             </div>
             <div class="modal-body" data-name="ecole">
@@ -592,7 +626,7 @@
                   <img src="media/modal-images/modal-image-5.jpg" alt="">
               </div>
               <div class="about-btns">
-                  <a href="#" class="site-btn" data-dismiss="modal">Back to cv</a>
+                  <a href="#" class="site-btn" data-dismiss="modal">Retour au cv </a>
               </div>
             </div>
         </div>
@@ -614,14 +648,14 @@
                 <div class="modal-form">
                   <div class="row form-wrapper">
                     <div class="col-md-5">
-                      <strong>Télephone :</strong> <span>+216 52002379</span>
+                      <strong class="mdi fonts-icons mdi-phone"> Télephone :</strong> <span>+216 52002379</span>
                     </div>
                     <div class="col-md-5">
-                       <strong>Email :</strong> <span>youssefamar611@gmail.com</span>
+                       <strong class="mdi fonts-icons mdi-email"> Email :</strong> <span>youssefamar611@gmail.com</span>
                     </div>
                       <div class="col-md-12">
                           <div class="submit-holder" style="margin-top:20px;">
-                              <a href="#" class="site-btn" data-dismiss="modal">Back to cv</a>
+                              <a href="#" class="site-btn" data-dismiss="modal">Retour au cv</a>
                           </div>
                       </div>
                 </div>
